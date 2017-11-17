@@ -20,7 +20,7 @@ public class Name2Id {
 	}
 	
 	public static void name2Id(){
-		String[] s1 = FileUtil.read("C:\\Users\\wty\\Desktop\\1_SPTCC-20150401_.csv", null);
+		String[] s1 = FileUtil.read("C:\\Users\\wty\\Desktop\\10000.csv", null);
 		String[] s2 = FileUtil.read("C:\\Users\\wty\\Desktop\\station_num.txt", null);
 		Map<String, String> map = new HashMap<String, String>();
 		for(int i = 1;i < s2.length;i++){
